@@ -3,7 +3,7 @@ vxwm-dots
 My dotfiles for VXWM.
 For context, VXWM stands for Versatile X Window Manager. by versatile, I mean it supports master, tiling, stacking and infinite canvas. Known for being very lightweight btw.
 
-> ⚠️ **Note:** The screenshot below is a old placeholder; i took this screenshot in a MX Linux Fluxbox live USB while i was trying out VXWM. The real ![dotfiles](../) are way better!
+> ⚠️ **Note:** The screenshot below is a old placeholder; i took this screenshot in a MX Linux Fluxbox live USB while i was trying out VXWM. The real ![dotfiles](https://github.com/theskepticpillow/vxwm-dots) are way better!
 
 ![photo](rice.png)
 
