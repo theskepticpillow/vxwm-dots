@@ -214,6 +214,7 @@ case "$DISTRO" in
         blur-background-exclude = [
           "window_type = 'dock'",
           "window_type = 'desktop'",
+        ];
         
         # animation
         animations = (
@@ -270,8 +271,7 @@ case "$DISTRO" in
         );
         
         # window type overrides
-        wintypes:
-        {
+        wintypes = {
           tooltip = { fade = true; shadow = true; opacity = 0.75; focus = true; full-shadow = false; };
           dock = { shadow = false; clip-shadow-above = true; }
           dnd = { shadow = false; }
