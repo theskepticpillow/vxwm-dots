@@ -1,0 +1,17 @@
+[config] 
+
+wallpaper_common_limit = 10 
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/matugen-theme.conf' 
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi.rasi'
+output_path = '~/.config/rofi/matugen-colors.rasi' 
+
+[templates.vxwm]
+input_path = '~/.config/matugen/templates/vxwm_colors.h'
+output_path = '~/build/vxwm/matugen_colors.h' 
+
+post_cmd = 'cd ~/build/vxwm && sudo make clean install'
