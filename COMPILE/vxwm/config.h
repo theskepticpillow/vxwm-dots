@@ -12,17 +12,12 @@ static const char *fonts[] = { "Maple Mono:size=11:antialias=true:autohint=true"
 static const char dmenufont[] = "Maple Mono:size=11";
 #define COORDINATES_STYLE "[x%d y%d]" /* The style of coordinates displayed in bar, do not remove %d. */
 
-static MAYBE_CONST char normbgcolor[]           = "#222222";
-static MAYBE_CONST char normbordercolor[]       = "#444444";
-static MAYBE_CONST char normfgcolor[]           = "#bbbbbb";
-static MAYBE_CONST char selfgcolor[]            = "#eeeeee";
-static MAYBE_CONST char selbordercolor[]        = "#005577";
-static MAYBE_CONST char selbgcolor[]            = "#005577";
-static MAYBE_CONST char *colors[][3] = {
-       /*               fg           bg           border   */
-       [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
-       [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
+static const char *colors[][3] = {
+       /*               fg              bg              border          */
+       [SchemeNorm] = { MATUGEN_FG,     MATUGEN_BG,     MATUGEN_BG     },
+       [SchemeSel]  = { MATUGEN_FG,     MATUGEN_SEL_BG, MATUGEN_BORDER },
 };
+
 
 #define CENTER_NEW_FLOATING_WINDOWS 1 // so, basically, it does what it says. (make 0 to turn off)
 #define NEW_FLOATING_WINDOWS_APPEAR_UNDER_CURSOR 0 // so, basically, it does what it says. (make 0 to turn off) 
