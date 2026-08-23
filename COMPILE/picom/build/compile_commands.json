@@ -1,0 +1,314 @@
+[
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/log.c.o -MF src/liblibtools.a.p/log.c.o.d -o src/liblibtools.a.p/log.c.o -c ../src/log.c",
+    "file": "../src/log.c",
+    "output": "src/liblibtools.a.p/log.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/utils_dynarr.c.o -MF src/liblibtools.a.p/utils_dynarr.c.o.d -o src/liblibtools.a.p/utils_dynarr.c.o -c ../src/utils/dynarr.c",
+    "file": "../src/utils/dynarr.c",
+    "output": "src/liblibtools.a.p/utils_dynarr.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/utils_misc.c.o -MF src/liblibtools.a.p/utils_misc.c.o.d -o src/liblibtools.a.p/utils_misc.c.o -c ../src/utils/misc.c",
+    "file": "../src/utils/misc.c",
+    "output": "src/liblibtools.a.p/utils_misc.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/utils_str.c.o -MF src/liblibtools.a.p/utils_str.c.o.d -o src/liblibtools.a.p/utils_str.c.o -c ../src/utils/str.c",
+    "file": "../src/utils/str.c",
+    "output": "src/liblibtools.a.p/utils_str.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/transition_curve.c.o -MF src/liblibtools.a.p/transition_curve.c.o.d -o src/liblibtools.a.p/transition_curve.c.o -c ../src/transition/curve.c",
+    "file": "../src/transition/curve.c",
+    "output": "src/liblibtools.a.p/transition_curve.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/liblibtools.a.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -fPIC -MD -MQ src/liblibtools.a.p/transition_script.c.o -MF src/liblibtools.a.p/transition_script.c.o.d -o src/liblibtools.a.p/transition_script.c.o -c ../src/transition/script.c",
+    "file": "../src/transition/script.c",
+    "output": "src/liblibtools.a.p/transition_script.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/api.c.o -MF src/picom.p/api.c.o.d -o src/picom.p/api.c.o -c ../src/api.c",
+    "file": "../src/api.c",
+    "output": "src/picom.p/api.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/atom.c.o -MF src/picom.p/atom.c.o.d -o src/picom.p/atom.c.o -c ../src/atom.c",
+    "file": "../src/atom.c",
+    "output": "src/picom.p/atom.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/c2.c.o -MF src/picom.p/c2.c.o.d -o src/picom.p/c2.c.o -c ../src/c2.c",
+    "file": "../src/c2.c",
+    "output": "src/picom.p/c2.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/config.c.o -MF src/picom.p/config.c.o.d -o src/picom.p/config.c.o -c ../src/config.c",
+    "file": "../src/config.c",
+    "output": "src/picom.p/config.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/config_libconfig.c.o -MF src/picom.p/config_libconfig.c.o.d -o src/picom.p/config_libconfig.c.o -c ../src/config_libconfig.c",
+    "file": "../src/config_libconfig.c",
+    "output": "src/picom.p/config_libconfig.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/diagnostic.c.o -MF src/picom.p/diagnostic.c.o.d -o src/picom.p/diagnostic.c.o -c ../src/diagnostic.c",
+    "file": "../src/diagnostic.c",
+    "output": "src/picom.p/diagnostic.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/event.c.o -MF src/picom.p/event.c.o.d -o src/picom.p/event.c.o -c ../src/event.c",
+    "file": "../src/event.c",
+    "output": "src/picom.p/event.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/inspect.c.o -MF src/picom.p/inspect.c.o.d -o src/picom.p/inspect.c.o -c ../src/inspect.c",
+    "file": "../src/inspect.c",
+    "output": "src/picom.p/inspect.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/log.c.o -MF src/picom.p/log.c.o.d -o src/picom.p/log.c.o -c ../src/log.c",
+    "file": "../src/log.c",
+    "output": "src/picom.p/log.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/options.c.o -MF src/picom.p/options.c.o.d -o src/picom.p/options.c.o -c ../src/options.c",
+    "file": "../src/options.c",
+    "output": "src/picom.p/options.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/picom.c.o -MF src/picom.p/picom.c.o.d -o src/picom.p/picom.c.o -c ../src/picom.c",
+    "file": "../src/picom.c",
+    "output": "src/picom.p/picom.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/vblank.c.o -MF src/picom.p/vblank.c.o.d -o src/picom.p/vblank.c.o -c ../src/vblank.c",
+    "file": "../src/vblank.c",
+    "output": "src/picom.p/vblank.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/x.c.o -MF src/picom.p/x.c.o.d -o src/picom.p/x.c.o -c ../src/x.c",
+    "file": "../src/x.c",
+    "output": "src/picom.p/x.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/dbus.c.o -MF src/picom.p/dbus.c.o.d -o src/picom.p/dbus.c.o -c ../src/dbus.c",
+    "file": "../src/dbus.c",
+    "output": "src/picom.p/dbus.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/rtkit.c.o -MF src/picom.p/rtkit.c.o.d -o src/picom.p/rtkit.c.o -c ../src/rtkit.c",
+    "file": "../src/rtkit.c",
+    "output": "src/picom.p/rtkit.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_dummy_dummy.c.o -MF src/picom.p/backend_dummy_dummy.c.o.d -o src/picom.p/backend_dummy_dummy.c.o -c ../src/backend/dummy/dummy.c",
+    "file": "../src/backend/dummy/dummy.c",
+    "output": "src/picom.p/backend_dummy_dummy.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_backend.c.o -MF src/picom.p/backend_backend.c.o.d -o src/picom.p/backend_backend.c.o -c ../src/backend/backend.c",
+    "file": "../src/backend/backend.c",
+    "output": "src/picom.p/backend_backend.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_backend_common.c.o -MF src/picom.p/backend_backend_common.c.o.d -o src/picom.p/backend_backend_common.c.o -c ../src/backend/backend_common.c",
+    "file": "../src/backend/backend_common.c",
+    "output": "src/picom.p/backend_backend_common.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_driver.c.o -MF src/picom.p/backend_driver.c.o.d -o src/picom.p/backend_driver.c.o -c ../src/backend/driver.c",
+    "file": "../src/backend/driver.c",
+    "output": "src/picom.p/backend_driver.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_xrender_xrender.c.o -MF src/picom.p/backend_xrender_xrender.c.o.d -o src/picom.p/backend_xrender_xrender.c.o -c ../src/backend/xrender/xrender.c",
+    "file": "../src/backend/xrender/xrender.c",
+    "output": "src/picom.p/backend_xrender_xrender.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_blur.c.o -MF src/picom.p/backend_gl_blur.c.o.d -o src/picom.p/backend_gl_blur.c.o -c ../src/backend/gl/blur.c",
+    "file": "../src/backend/gl/blur.c",
+    "output": "src/picom.p/backend_gl_blur.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_egl.c.o -MF src/picom.p/backend_gl_egl.c.o.d -o src/picom.p/backend_gl_egl.c.o -c ../src/backend/gl/egl.c",
+    "file": "../src/backend/gl/egl.c",
+    "output": "src/picom.p/backend_gl_egl.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_gl_common.c.o -MF src/picom.p/backend_gl_gl_common.c.o.d -o src/picom.p/backend_gl_gl_common.c.o -c ../src/backend/gl/gl_common.c",
+    "file": "../src/backend/gl/gl_common.c",
+    "output": "src/picom.p/backend_gl_gl_common.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_glx.c.o -MF src/picom.p/backend_gl_glx.c.o.d -o src/picom.p/backend_gl_glx.c.o -c ../src/backend/gl/glx.c",
+    "file": "../src/backend/gl/glx.c",
+    "output": "src/picom.p/backend_gl_glx.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_shaders.c.o -MF src/picom.p/backend_gl_shaders.c.o.d -o src/picom.p/backend_gl_shaders.c.o -c ../src/backend/gl/shaders.c",
+    "file": "../src/backend/gl/shaders.c",
+    "output": "src/picom.p/backend_gl_shaders.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/wm_win.c.o -MF src/picom.p/wm_win.c.o.d -o src/picom.p/wm_win.c.o -c ../src/wm/win.c",
+    "file": "../src/wm/win.c",
+    "output": "src/picom.p/wm_win.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/wm_wm.c.o -MF src/picom.p/wm_wm.c.o.d -o src/picom.p/wm_wm.c.o -c ../src/wm/wm.c",
+    "file": "../src/wm/wm.c",
+    "output": "src/picom.p/wm_wm.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/wm_tree.c.o -MF src/picom.p/wm_tree.c.o.d -o src/picom.p/wm_tree.c.o -c ../src/wm/tree.c",
+    "file": "../src/wm/tree.c",
+    "output": "src/picom.p/wm_tree.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/renderer_command_builder.c.o -MF src/picom.p/renderer_command_builder.c.o.d -o src/picom.p/renderer_command_builder.c.o -c ../src/renderer/command_builder.c",
+    "file": "../src/renderer/command_builder.c",
+    "output": "src/picom.p/renderer_command_builder.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/renderer_damage.c.o -MF src/picom.p/renderer_damage.c.o.d -o src/picom.p/renderer_damage.c.o -c ../src/renderer/damage.c",
+    "file": "../src/renderer/damage.c",
+    "output": "src/picom.p/renderer_damage.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/renderer_layout.c.o -MF src/picom.p/renderer_layout.c.o.d -o src/picom.p/renderer_layout.c.o -c ../src/renderer/layout.c",
+    "file": "../src/renderer/layout.c",
+    "output": "src/picom.p/renderer_layout.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/renderer_renderer.c.o -MF src/picom.p/renderer_renderer.c.o.d -o src/picom.p/renderer_renderer.c.o -c ../src/renderer/renderer.c",
+    "file": "../src/renderer/renderer.c",
+    "output": "src/picom.p/renderer_renderer.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/transition_generated_script_templates.c.o -MF src/picom.p/transition_generated_script_templates.c.o.d -o src/picom.p/transition_generated_script_templates.c.o -c ../src/transition/generated/script_templates.c",
+    "file": "../src/transition/generated/script_templates.c",
+    "output": "src/picom.p/transition_generated_script_templates.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/transition_curve.c.o -MF src/picom.p/transition_curve.c.o.d -o src/picom.p/transition_curve.c.o -c ../src/transition/curve.c",
+    "file": "../src/transition/curve.c",
+    "output": "src/picom.p/transition_curve.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/transition_preset.c.o -MF src/picom.p/transition_preset.c.o.d -o src/picom.p/transition_preset.c.o -c ../src/transition/preset.c",
+    "file": "../src/transition/preset.c",
+    "output": "src/picom.p/transition_preset.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/transition_script.c.o -MF src/picom.p/transition_script.c.o.d -o src/picom.p/transition_script.c.o -c ../src/transition/script.c",
+    "file": "../src/transition/script.c",
+    "output": "src/picom.p/transition_script.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_cache.c.o -MF src/picom.p/utils_cache.c.o.d -o src/picom.p/utils_cache.c.o -c ../src/utils/cache.c",
+    "file": "../src/utils/cache.c",
+    "output": "src/picom.p/utils_cache.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_dynarr.c.o -MF src/picom.p/utils_dynarr.c.o.d -o src/picom.p/utils_dynarr.c.o -c ../src/utils/dynarr.c",
+    "file": "../src/utils/dynarr.c",
+    "output": "src/picom.p/utils_dynarr.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_file_watch.c.o -MF src/picom.p/utils_file_watch.c.o.d -o src/picom.p/utils_file_watch.c.o -c ../src/utils/file_watch.c",
+    "file": "../src/utils/file_watch.c",
+    "output": "src/picom.p/utils_file_watch.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_kernel.c.o -MF src/picom.p/utils_kernel.c.o.d -o src/picom.p/utils_kernel.c.o -c ../src/utils/kernel.c",
+    "file": "../src/utils/kernel.c",
+    "output": "src/picom.p/utils_kernel.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_misc.c.o -MF src/picom.p/utils_misc.c.o.d -o src/picom.p/utils_misc.c.o -c ../src/utils/misc.c",
+    "file": "../src/utils/misc.c",
+    "output": "src/picom.p/utils_misc.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_statistics.c.o -MF src/picom.p/utils_statistics.c.o.d -o src/picom.p/utils_statistics.c.o -c ../src/utils/statistics.c",
+    "file": "../src/utils/statistics.c",
+    "output": "src/picom.p/utils_statistics.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_str.c.o -MF src/picom.p/utils_str.c.o.d -o src/picom.p/utils_str.c.o -c ../src/utils/str.c",
+    "file": "../src/utils/str.c",
+    "output": "src/picom.p/utils_str.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_ui.c.o -MF src/picom.p/utils_ui.c.o.d -o src/picom.p/utils_ui.c.o -c ../src/utils/ui.c",
+    "file": "../src/utils/ui.c",
+    "output": "src/picom.p/utils_ui.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -DCONFIG_REGEX_PCRE -DCONFIG_OPENGL -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils_process.c.o -MF src/picom.p/utils_process.c.o.d -o src/picom.p/utils_process.c.o -c ../src/utils/process.c",
+    "file": "../src/utils/process.c",
+    "output": "src/picom.p/utils_process.c.o"
+  },
+  {
+    "directory": "/home/demo/picom/build",
+    "command": "cc -Itools/animgen.p -Itools -I../tools -Isrc -I../src -Iinclude -I../include -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DPICOM_VERSION=\"v13\"' '-DPICOM_FULL_VERSION=\"v13 (https://github.com/yshui/picom revision 6d67682)\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough=2 -Wno-missing-braces -Wconversion -Wempty-body -pthread -MD -MQ tools/animgen.p/animgen.c.o -MF tools/animgen.p/animgen.c.o.d -o tools/animgen.p/animgen.c.o -c ../tools/animgen.c",
+    "file": "../tools/animgen.c",
+    "output": "tools/animgen.p/animgen.c.o"
+  }
+]
