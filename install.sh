@@ -290,6 +290,7 @@ EOF
         echo "    Then run: sudo nixos-rebuild switch"
         sleep 8
         ;;
+        
     *)
         echo "Distro not listed explictly ($DISTRO)."
         ;;
