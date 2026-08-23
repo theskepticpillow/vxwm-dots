@@ -21,7 +21,7 @@ Lost? Hit the "homecanvas" keybind to snap your view back to the start.
 Even though this sounds complex, it is actually pretty lightweight, and is very easy to use.
  
  */
-#define IT_SHOW_COORDINATES_IN_BAR 1 // Shows your coordinates in the bar, pretty impossible to use infinite tags without this.
+#define IT_SHOW_COORDINATES_IN_BAR 0 // Shows your coordinates in the bar, pretty impossible to use infinite tags without this.
 #define ZOOM 1 // Zoom integration, requires vcompmgr installed and running.
 
 
@@ -30,7 +30,7 @@ Even though this sounds complex, it is actually pretty lightweight, and is very 
 #define BR_CHANGE_CURSOR 1 // When resizing windows while having BETTER_RESIZE set to 1, the cursor will change depending on from which side you are resizing.
 #define LOCK_MOVE_RESIZE_REFRESH_RATE 1 // Recommended to use on every pc, because cpu (software) rendered apps like ST will lag when resizing even if you have a good pc.
 #define USE_RESIZECLIENT_FUNC 0 // Use resizeclient function instead of resize function which ignores window's resize hints, not recommended.
-#define RESIZING_WINDOWS_IN_ALL_LAYOUTS_FLOATS_THEM 1 // yeah.
+#define RESIZING_WINDOWS_IN_ALL_LAYOUTS_FLOATS_THEM 0 // yeah.
 #define MOVE_RESIZE_WITH_KEYBOARD 1 // Allows to move and resize windows with keyboard.
 
 
@@ -43,7 +43,7 @@ Even though this sounds complex, it is actually pretty lightweight, and is very 
 
 /* Tagging */
 #define TAG_TO_TAG 1 // If you switch to tag where you already are, it'll switch to previous tag.
-#define SLOWER_TAGS_ANIMATION 0 // This slows down tags animation speed, which results in smoother tags animations (requires picom to see any difference).
+#define SLOWER_TAGS_ANIMATION 1 // This slows down tags animation speed, which results in smoother tags animations (requires picom to see any difference).
 #define WINDOWMAP 1
 /* This makes the windows get mapped or unmapped in X11. This results in certain
    behaviour being enabled, some examples are: fix issues with some applications 
@@ -64,7 +64,7 @@ Even though this sounds complex, it is actually pretty lightweight, and is very 
 #define OCCUPIED_TAGS_DECORATION 0 // This provides the ability to use an alternative text for tags which contain at least one window aka occupied tags.
 
 /* External */
-#define EXTERNAL_BARS 1 // Support for external bars, essencial if you want to use external bars.
+#define EXTERNAL_BARS 1 // Support for external bars, essential if you want to use external bars.
 #define EWMH_TAGS 1 // Support for EWMH tags, recommended if you want to use external bars with less pain
 
 
@@ -82,7 +82,7 @@ Even though this sounds complex, it is actually pretty lightweight, and is very 
 
 
 /* Misc */
-#define AUTOSTART 0 // Support for vxwm being able to start apps defined in config.h in startup.
+#define AUTOSTART 1 // Support for vxwm being able to start apps defined in config.h in startup.
 #define FULLSCREEN 1 // Support for toggling fullscreen.
 #define MOVE_IN_TILED 1 // Support for moving windows in tiled mode.
 #define DIRECTIONAL_FOCUS 1 // yeah.
