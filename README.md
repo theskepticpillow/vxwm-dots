@@ -1,6 +1,6 @@
-# vxwm-dots
+vxwm-dots
+==
 My dotfiles for VXWM.
------------
 For context, VXWM stands for Versatile X Window Manager. by versatile, I mean it supports master, tiling, stacking and infinite canvas. Known for being very lightweight btw.
 
 ##### the screenshot below was one I took in a live USB. the real dotfiles are better!
