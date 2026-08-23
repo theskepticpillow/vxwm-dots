@@ -2,7 +2,7 @@
 
 Rename ![git/](git/) to .git when cloning this repo.
 
-Same thing as ![github/](github/) to .github
+Same thing as ![github/](github/) to .github and ![well-known/](well-known/) to .well-known
 
 picom
 =====
