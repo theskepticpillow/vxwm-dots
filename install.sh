@@ -286,11 +286,11 @@ EOF
         sleep 0.5
         echo "(*) Instructions:"
         sleep 1
-        echo "    To apply, add './COMPILE/nixos/picom.nix' on the array 'imports' of your configuration.nix"
-        echo "    Then run: sudo nixos-rebuild switch"
+        echo "To apply, add './COMPILE/nixos/picom.nix' on the array 'imports' of your configuration.nix"
+        echo "Then run: sudo nixos-rebuild switch"
         sleep 8
         ;;
-        
+
     *)
         echo "Distro not listed explictly ($DISTRO)."
         ;;
