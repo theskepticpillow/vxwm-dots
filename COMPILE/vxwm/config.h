@@ -174,9 +174,8 @@ static const Key keys[] = {
   { MODKEY|ShiftMask,             XK_q,      enhancedtogglefloating, {0} }, //enhanced toggle floating bind.
 #endif
 #if GAPS
-  { MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
-  { MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
-  { MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+  { MODKEY|ShiftMask,             XK_minus,  setgaps,        {.i = -1 } },
+  { MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = +1 } },
 #endif
 #if MOVE_RESIZE_WITH_KEYBOARD
   { MODKEY,					              XK_Down,	moveresize,		{.v = (int []){ 0, MOVE_WITH_KEYBOARD_STEP, 0, 0 }}}, // Move window to down
