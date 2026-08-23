@@ -1,4 +1,5 @@
 #pragma once
+#include "matugen_colors.h"
 
 /* See LICENSE file for copyright and license details. */
 
