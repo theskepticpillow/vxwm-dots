@@ -277,7 +277,6 @@ case "$DISTRO" in
           dnd = { shadow = false; }
           popup_menu = { opacity = 0.9; }
           dropdown_menu = { opacity = 0.9; }
-        };
             };
           };
           environment.systemPackages = [ pkgs.picom ];
