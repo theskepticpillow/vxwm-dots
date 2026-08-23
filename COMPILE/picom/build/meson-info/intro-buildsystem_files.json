@@ -1,0 +1,18 @@
+[
+  "/home/demo/picom/meson.build",
+  "/home/demo/picom/meson_options.txt",
+  "/usr/bin/git",
+  "/home/demo/picom/subprojects/test.h/meson.build",
+  "/home/demo/picom/src/meson.build",
+  "/home/demo/picom/src/backend/meson.build",
+  "/home/demo/picom/src/backend/xrender/meson.build",
+  "/home/demo/picom/src/backend/gl/meson.build",
+  "/home/demo/picom/src/wm/meson.build",
+  "/home/demo/picom/src/renderer/meson.build",
+  "/home/demo/picom/src/transition/meson.build",
+  "/home/demo/picom/src/utils/meson.build",
+  "/home/demo/picom/man/meson.build",
+  "/home/demo/picom/tools/meson.build",
+  "/home/demo/picom/include/meson.build",
+  "/home/demo/picom/include/picom/meson.build"
+]

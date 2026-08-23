@@ -1,0 +1,12 @@
+{
+  "/home/demo/picom/build/src/picom": "/usr/local/bin/picom",
+  "/home/demo/picom/bin/picom-trans": "/usr/local/bin/picom-trans",
+  "/home/demo/picom/picom.desktop": "/usr/local/etc/xdg/autostart/picom.desktop",
+  "/home/demo/picom/build/meson-private/picom-api.pc": "/usr/local/lib/x86_64-linux-gnu/pkgconfig/picom-api.pc",
+  "/home/demo/picom/compton.desktop": "/usr/local/share/applications/compton.desktop",
+  "/home/demo/picom/media/icons/48x48/compton.png": "/usr/local/share/icons/hicolor/48x48/apps/compton.png",
+  "/home/demo/picom/media/compton.svg": "/usr/local/share/icons/hicolor/scalable/apps/compton.svg",
+  "/home/demo/picom/include/picom/api.h": "/usr/local/include/picom/api.h",
+  "/home/demo/picom/include/picom/backend.h": "/usr/local/include/picom/backend.h",
+  "picom-inspect": "/usr/local/bin/picom-inspect"
+}

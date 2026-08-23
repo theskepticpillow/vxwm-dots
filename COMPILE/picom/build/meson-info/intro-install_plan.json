@@ -1,0 +1,54 @@
+{
+  "targets": {
+    "/home/demo/picom/build/src/picom": {
+      "destination": "{bindir}/picom",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/home/demo/picom/bin/picom-trans": {
+      "destination": "{bindir}/picom-trans",
+      "tag": "runtime",
+      "subproject": null
+    },
+    "/home/demo/picom/picom.desktop": {
+      "destination": "{sysconfdir}/xdg/autostart/picom.desktop",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/demo/picom/build/meson-private/picom-api.pc": {
+      "destination": "{libdir}/pkgconfig/picom-api.pc",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/demo/picom/compton.desktop": {
+      "destination": "share/applications/compton.desktop",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/demo/picom/media/icons/48x48/compton.png": {
+      "destination": "share/icons/hicolor/48x48/apps/compton.png",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/demo/picom/media/compton.svg": {
+      "destination": "share/icons/hicolor/scalable/apps/compton.svg",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/home/demo/picom/include/picom/api.h": {
+      "destination": "{includedir}/picom/api.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/demo/picom/include/picom/backend.h": {
+      "destination": "{includedir}/picom/backend.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  }
+}

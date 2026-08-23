@@ -1,0 +1,370 @@
+[
+  {
+    "name": "pixman-1",
+    "type": "pkgconfig",
+    "version": "0.44.0",
+    "compile_args": [
+      "-I/usr/include/pixman-1"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libpixman-1.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "x11",
+    "type": "pkgconfig",
+    "version": "1.8.12",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libX11.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "x11-xcb",
+    "type": "pkgconfig",
+    "version": "1.8.12",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libX11-xcb.so",
+      "/usr/lib/x86_64-linux-gnu/libX11.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-image",
+    "type": "pkgconfig",
+    "version": "0.4.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-image.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb-shm.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-renderutil",
+    "type": "pkgconfig",
+    "version": "0.3.10",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-render-util.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb-render.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-util",
+    "type": "pkgconfig",
+    "version": "0.4.1",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-util.so",
+      "/usr/lib/x86_64-linux-gnu/libxcb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-composite",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-composite.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-damage",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-damage.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-glx",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-glx.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-present",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-present.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-randr",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-randr.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-render",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-render.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-shape",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-shape.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-sync",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-sync.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "xcb-xfixes",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxcb-xfixes.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "libconfig",
+    "type": "pkgconfig",
+    "version": "1.7.3",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libconfig.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libconfig_dep"
+    ]
+  },
+  {
+    "name": "libpcre2-8",
+    "type": "pkgconfig",
+    "version": "10.46",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libpcre2-8.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pcre"
+    ]
+  },
+  {
+    "name": "epoxy",
+    "type": "pkgconfig",
+    "version": "1.5.10",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libepoxy.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "dbus-1",
+    "type": "pkgconfig",
+    "version": "1.16.2",
+    "compile_args": [
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libdbus-1.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "dep69967455816890379037862600317486039974",
+    "type": "internal",
+    "version": "undefined",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/demo/picom/subprojects/test.h/.",
+      "/home/demo/picom/build/subprojects/test.h/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "test_h_dep"
+    ]
+  },
+  {
+    "name": "ev",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lev"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libev"
+    ]
+  }
+]

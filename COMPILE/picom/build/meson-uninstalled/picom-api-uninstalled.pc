@@ -1,0 +1,8 @@
+prefix=/home/demo/picom/build
+includedir=${prefix}/include
+srcdir=/home/demo/picom
+
+Name: picom-api
+Description: picom API headers
+Version: 13
+Requires: pixman-1, xcb
