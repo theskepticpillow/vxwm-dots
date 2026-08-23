@@ -1,0 +1,17 @@
+*.o
+*.out
+*.app
+.meson/
+build/
+subprojects/
+COMPILE/vxwm/vxwm
+COMPILE/picom/picom
+COMPILE/vxwm/matugen_colors.h
+~/.config/matugen/templates/matugen-colors.rasi
+~/.config/kitty/matugen-theme.conf
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.idea/
+.vscode/
