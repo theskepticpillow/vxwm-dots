@@ -163,7 +163,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_m,      quit,           {0} },
 #if XRDB
   { MODKEY,                       XK_F5,     xrdb,           {.v = NULL } },
 #endif
@@ -171,7 +171,7 @@ static const Key keys[] = {
   { MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
 #endif
 #if ENHANCED_TOGGLE_FLOATING
-  { MODKEY,                       XK_q,      enhancedtogglefloating, {0} }, //enhanced toggle floating bind.
+  { MODKEY|ShiftMask,             XK_q,      enhancedtogglefloating, {0} }, //enhanced toggle floating bind.
 #endif
 #if GAPS
   { MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
